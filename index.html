@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优图驿站首页</title>
+    <link rel="shortcut icon" href="logo.ico"  />
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- 导航 -->
+    <div class="nav" id="nav">
+        <div class="nav-left">
+            <a href="#" class="nav-logo">
+                <img class="nav-logo-img" id="nav-logo-img" src="img/首页/logo-w.png" alt="">
+                <span>优图驿站</span>
+            </a>
+            <ul>
+                <li><a class="choose" href="#">首页</a></li>
+                <li><a href="html/素材.html">素材</a></li>
+                <li><a href="html/服务.html">服务</a></li>
+                <li><a href="html/shop.html">购物</a></li>
+                <li><a href="#">更多</a></li>
+            </ul>
+        </div>
+        <div class="nav-input" id="nav-input">
+            <input type="text" placeholder="搜索你喜欢的">
+            <button></button>
+        </div>
+        <div class="nav-right">
+            <a class="login" id="login" href="#">登录</a>
+            <a class="register" id="register" href="#">注册</a>
+        </div>
+    </div>
+    <!-- 蒙版 -->
+    <div class="login-father" id="login-father"></div>
+    <!-- 登录板块 -->
+    <div class="login-box" id="login-box">
+        <div class="close" id="login-close"></div>
+        <div class="login-content">
+            <div class="login-logo">
+                <img src="img/首页/logo-com.png" alt="">
+            </div>
+            <div class="login-p">
+                <p>使用第三方账号登录</p>
+            </div>
+            <div class="login-other">
+                <a href="#" title="微博账号登录" class="weibo"></a>
+                <a href="#" title="QQ账号登录" class="QQ"></a>
+                <a href="#" title="微信账号登录" class="weixin"></a>
+                <a href="#" title="豆瓣账号登录" class="douban"></a>
+                <a href="#" title="人人账号登录" class="renren"></a>
+            </div>
+            <div class="login-p">
+                <p>使用手机号/邮箱登录</p>
+            </div>
+            <input type="text" placeholder="输入手机号或邮箱">
+            <input type="password" placeholder="密码">
+            <button>登录</button>
+            <div class="last-line">
+                <a href="#">忘记密码>></a>
+                <span>还没有优图账号?</span>
+                <a href="#" id="login-a">点击注册>></a>
+            </div>
+        </div>
+        
+    </div>
+    <!-- 注册板块 -->
+    <div class="register-box" id="register-box">
+            <div class="close" id="register-close"></div>
+            <div class="register-content">
+                <div class="register-logo">
+                    <img src="img/首页/logo-com.png" alt="">
+                </div>
+                <div class="register-p">
+                    <p>使用第三方账号注册优图</p>
+                </div>
+                <div class="register-other">
+                    <a href="#" title="微博账号登录" class="weibo"></a>
+                    <a href="#" title="QQ账号登录" class="QQ"></a>
+                    <a href="#" title="微信账号登录" class="weixin"></a>
+                    <a href="#" title="豆瓣账号登录" class="douban"></a>
+                </div>
+                <a class="phone-reg" href="#">使用手机号注册</a>
+                <div class="last-line">
+                    <span>已有账号?</span>
+                    <a href="#" id="register-a">登录到优图>></a>
+                </div>
+            </div>
+    </div>
+    <!-- 头部搜索部分 -->
+    <div class="head-banner" id="head-banner">
+        <div class="head-banner-box">
+            <p class="head-banner-p">优图驿站，陪你做生活的设计师</p>
+            <div class="head-input">
+                <input type="text" placeholder="搜索你喜欢的">
+                <button></button>
+            </div>
+            <div class="head-rec">
+                <span>热门搜索:</span>
+                <a href="#">双十一素材</a>
+                <a href="#">创意合成</a>
+                <a href="#">壁纸那些事</a>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播图板块 -->
+    <div class="carousel" id="carousel">
+        <div class="carousel-title" >
+            <p>大家正在关注</p>
+        </div>
+        <div class="carousel-box" id="carousel-box">
+            <div class="carousel-box1 carousel-allbox">
+                <a href="#"><img src="img/首页/1.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/2.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/3.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/4.jpg" alt=""></a>
+            </div>
+            <div class="carousel-box2 carousel-allbox">
+                <a href="#"><img src="img/首页/5.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/6.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/7.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/8.jpg" alt=""></a>
+            </div>
+            <div class="carousel-box3 carousel-allbox">
+                <a href="#"><img src="img/首页/9.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/10.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/11.jpg" alt=""></a>
+                <a href="#"><img src="img/首页/12.jpg" alt=""></a>
+            </div>
+            <div class="btn-left btn">&lt;</div>
+            <div class="btn-right btn">&gt;</div>
+            <ul class="list" id="list">
+                <li class="list-choose"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 图片板块 -->
+    <div class="content" id="content">
+        <div class="content-title" >
+            <p id="recommend">为您推荐+(点击出现彩蛋)</p>
+        </div>
+        <div class="contentBox" id="contentBox"></div>
+        <div class="content-p" id="content-p">
+            <p id="contentP">加载更多</p>
+        </div>
+    </div>
+    <!-- 彩蛋1区 -->
+    <div class="egg1" id="egg1">
+            <canvas id="myCanvas" width="600" height="600" style="transform-origin: 300px 300px;margin:50px auto;"></canvas>
+    </div>
+    <!-- 彩蛋2区 -->
+    <div class="egg2" id="egg2">
+        <figure class="view1 view">
+            <img src="img/首页/egg2/1.jpg" alt="因不可违抗因素图片不可见">
+            <span class="titile">奥黛丽.赫本代表作</span>
+            <span class="movie1">《罗马假日》</span>
+            <span class="movie2">《窈窕淑女》</span>
+            <span class="movie3">《蒂凡尼的早餐》</span>
+        </figure>
+        <figure class="view2 view">
+            <img src="img/首页/egg2/2.jpg" alt="因不可违抗因素图片不可见">
+            <span class="titile">奥黛丽.赫本</span>
+            <span class="movie1 ">身高:170cm;</span>
+            <span class="movie2">血型:A型</span>
+            <span class="movie3">星座:金牛座</span>
+        </figure>
+        <figure class="view3 view">
+            <img src="img/首页/egg2/3.jpg" alt="因不可违抗因素图片不可见">
+            <span class="titile">奥黛丽.赫本评价</span>
+            <p>奥黛丽·赫本高贵而优雅，她的美丽永恒不变.她是时尚的代表，自然与美的化身；她的性情温和，微笑散发着独特的魅力。她为人的低调友善，对待工作的敬业勤恳。她热爱公益，给世界带来爱与温暖，她是人间的天使，也是我心中永恒的女神。</p>
+        </figure>
+        <figure class="view4 view">
+            <img src="img/首页/egg2/4.jpg" alt="因不可违抗因素图片不可见">
+            <span class="titile">优雅与关系</span>
+            <div></div>
+            <span class="proverb">优美的姿态，来源于与知识同行,而非独行。</span>
+            
+        </figure>
+        <figure class="view5 view">
+            <img src="img/首页/egg2/5.jpg" alt="因不可违抗因素图片不可见">
+            <div></div>
+            <span class="titile">不老女神：奥黛丽.赫本</span>
+            <span class="proverb">优雅是唯一不会褪色的美</span>
+        </figure>
+        <figure class="view6 view">
+            <img src="img/首页/egg2/6.jpg" alt="因不可违抗因素图片不可见">
+            <span class="titile">主要成就：</span>
+            <p class="awards awards1">奥斯卡最佳女主角 </p>
+            <p class="awards awards2">托尼奖最佳女主角  </p>
+            <p class="awards awards3">英国电影学院奖最佳女主角  </p>
+            <p class="awards awards4">美国电影金球奖最佳女主角  </p>
+            <p class="awards awards5">美国演员工会奖终身成就奖  </p>
+            <p class="awards awards6">艾美奖杰出个人成就奖  </p>
+            <p class="awards awards7">格莱美奖最佳儿童读诵专辑 </p>
+            <p></p>
+        </figure>
+        <figure class="view7 view">
+            <img src="img/首页/egg2/7.jpg" alt="因不可违抗因素图片不可见">
+            <span class="titile">社会活动</span>
+            <p class="p1">奥黛丽.赫本一直在积极参加慈善活动。</p>
+            <p class="p2">1988年至1993年间，奥黛丽·赫本成为联合国儿童基金会的亲善大使。</p>
+            <p class="p3">2002年5月，联合国儿童基金会在其纽约总部为一尊7英尺高的青铜雕像，以表彰赫本为联合国所做的贡献</p>
+        </figure>
+        <figure class="view8 view">
+            <img src="img/首页/egg2/8.jpg" alt="因不可违抗因素图片不可见">
+            <div class="TandB"></div>
+            <div class="LandR"></div>
+            <span class="content">奥黛丽.赫本:优雅与美丽共存的人间天使。</span>
+            <div class="box"></div>
+        </figure>
+        <figure class="view9 view">
+            <img src="img/首页/egg2/9.jpg" alt="因不可违抗因素图片不可见">
+            <span class="titile">情感生活</span>
+            <p>奥黛丽.赫本一生有三次情感生活，两次婚姻，前半身婚姻不幸，后半生遇到了人生伴侣。</p>
+        </figure>
+    </div>
+    <!-- 彩蛋3区 -->
+    <div class="egg3" id="egg3">
+        <div id="imgArea"></div>
+    </div>
+    <!-- 彩蛋4区 -->
+    <div class="egg4" id="egg4">
+        <!-- 头部 -->
+        <div class="head">
+            <div class="head-left">
+                <div class="logo"></div>
+                <p class="name">开拓者工作室</p>
+                <span class="word">与时俱进，开拓创新！</span>
+            </div>
+        </div>
+        <!-- 主体内容部分 -->
+        <div class="content">
+        <!-- 照片墙 -->
+            <div class="photo">
+                <h3>平面照片墙:</h3>
+                <div class="person1 person">
+                    <span>CEO：秦青豪</span>
+                    <img src="img/首页/egg4/秦青豪.jpg" alt=""/>
+                    <p>星座：双鱼座</p>
+                    <p>爱好:骑行，跑步，读书</p>
+                </div>
+                <div class="person2 person">
+                    <span>项目经理:时红斌</span>
+                    <img src="img/首页/egg4/时红斌.jpg" alt=""/>
+                    <p>星座：双子座</p>
+                    <p>爱好:篮球，听歌</p>
+                </div>
+                <div class="person3 person">
+                    <span>开发人员：夏宝才仁</span>
+                    <img src="img/首页/egg4/夏宝才人.jpg" alt=""/>
+                    <p>星座：水瓶座</p>
+                <p>爱好:阅读，思考，运动</p>
+                </div>
+                    <div class="person4 person">
+                    <span>美工：林巧云</span>
+                    <img src="img/首页/egg4/林巧云.jpg" alt=""/>
+                    <p>星座：天秤座</p>
+                <p>爱好:画画。</p>
+                </div>
+            </div>
+            <!-- 3D旋转照片 -->
+            <div class="cube">
+                <h3>3D旋转照片</h3>
+                <ul>
+                    <li><img src="img/首页/egg4/秦青豪.jpg" alt=""><p>秦青豪</p></li>
+                    <li><img src="img/首页/egg4/时红斌.jpg" alt=""><p>时红斌</p></li>
+                    <li><img src="img/首页/egg4/夏宝才人.jpg" alt=""><p>夏宝才人</p></li>
+                    <li><img src="img/首页/egg4/林巧云.jpg" alt=""><p>林巧云</p></li>
+                </ul>
+            </div>
+	    </div>	
+    </div>
+    <!-- 分类采集板块 -->
+    <div class="gether" id="gether">
+        <p class="gether-p">以分类浏览优图驿站</p>
+        <div class="gether1 getherDiv">
+            <a href="#gether">UI/UX</a>
+            <a href="#gether">平面</a>
+            <a href="#gether">插画/漫画</a>
+            <a href="#gether">家居/家装</a>
+            <a href="#gether">女装/搭配</a>
+            <a href="#gether">男士/风尚</a>
+        </div>
+        <div class="gether1 getherDiv">
+            <a href="#gether">工业设计</a>
+            <a href="#gether">摄影</a>
+            <a href="#gether">造型/美妆</a>
+            <a href="#gether">美食</a>
+            <a href="#gether">旅行</a>
+            <a href="#gether">手工/布艺</a>
+        </div>
+        <div class="gether1 getherDiv">
+            <a href="#gether">UI/UX</a>
+            <a href="#gether">平面</a>
+            <a href="#gether">插画/漫画</a>
+            <a href="#gether">家居/家装</a>
+            <a href="#gether">女装/搭配</a>
+            <a href="#gether">男士/风尚</a>
+        </div>
+        <div class="gether1 getherDiv">
+            <a href="#gether">UI/UX</a>
+            <a href="#gether">平面</a>
+            <a href="#gether">插画/漫画</a>
+            <a href="#gether">家居/家装</a>
+            <a href="#gether">女装/搭配</a>
+            <a href="#gether">男士/风尚</a>
+        </div>
+        <div class="gether1 getherDiv">
+            <a href="#gether">UI/UX</a>
+            <a href="#gether">平面</a>
+            <a href="#gether">插画/漫画</a>
+            <a href="#gether">家居/家装</a>
+            <a href="#gether">女装/搭配</a>
+            <a href="#gether">男士/风尚</a>
+        </div>
+        
+    </div>
+    <!-- 尾部板块 -->
+    <div class="foot" id="foot">
+        <ul>
+            <li><a href="#foot">优图首页</a></li>
+            <li><a href="#foot">优图采集工具</a></li>
+            <li><a href="#foot">优图官方微博</a></li>
+            <li><a href="#foot">违规有害信息举报</a></li>
+        </ul>
+        <ul>
+            <li><a href="#foot">练习与合作</a></li>
+            <li><a href="#foot">联系我们</a></li>
+            <li><a href="#foot">用户反馈</a></li>
+            <li><a href="#foot">优图LOGO标准文档</a></li>
+        </ul>
+        <ul>
+            <li><a href="#foot">移动客户端</a></li>
+            <li><a href="#foot">优图iPhone版</a></li>
+            <li><a href="#foot">优图Android版</a></li>
+            <li><a href="#foot">优图HD</a></li>
+        </ul>
+        <ul>
+            <li><a href="#foot">关注我们</a></li>
+            <li><a href="#foot">新浪微博:@优图驿站网</a></li>
+            <li><a href="#foot">联系客服</a></li>
+            <li><a href="#foot">官方微信<img id="foot-min-img" src="img/首页/about_footer_code.png" alt=""></a></li>
+            <img class="foot-ul-img" id="foot-ul-img" src="img/首页/code.jpg" alt="">
+        </ul>
+    </div>
+    <!-- 返回顶部板块 -->
+    <div class="return-all">
+        <!-- 返回顶部 -->
+        <div class="return" id="return">
+            <p class="return-p" id="return-p">回到顶部</p>
+        </div>
+        <div class="help" id="help">
+            <ul class="help-ul" id="help-ul">
+                <li>帮助中心</li>
+                <li>用户反馈</li>
+                <li>人工客服</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
